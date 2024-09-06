@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    background-color: bisque;
+    font-family: suse;
+}
+
+#container-geral {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* #ul-pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.pages {
+    margin: 10px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+} */
+
+/* #container-left {
+    background-color: rgb(233, 162, 149);
+    width: 200px;
+    padding: 20px;
+}
+
+#container-left h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 5px 0px;
+} */
+
+#container-principal {
+    background-color: rgb(233, 162, 149);
+    width: 1300px;
+    /* padding: 15px; */
+}
+
+#banner-img {
+    width: 1300px;
+    height: 200px;
+}
+
+#perfil-img {
+    top: 130px;
+    left: 100px;
+    position: absolute;
+    max-width: 150px;
+    border-radius: 100px
+}
+
+#user-name {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    font-size: 40px;
+}
+
+#bio-container {
+    max-width: 900px;
+}
+
+#bio-box {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#posts-container {
+    background-color: aliceblue;
+    height: auto;
+    padding: 5px 0px;
+}
+
+.posts {
+    margin-left: 60px;
+    height: auto;
+    width: 800px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.posts h3 {
+    margin-top: 10px;
+}
+
+.posts p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 800px;
+}
+
+#add-page {
+    position: fixed;
+    bottom: 100px;
+    right: 150px;
+    width: 80px;
+    height: 80px;
+    font-size: 70px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #ffffed;
+}
+
+#create-post-container {
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 25%;
+    width: 730px;
+    height: 310px;
+    background-color: rgb(241, 163, 110);
+    border-radius: 5px 5px 30px 5px;
+}
+
+#confirm-cancel {
+    position: absolute;
+    right: 20px;
+}
+
+#post-text {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 670px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    resize: none;
+    border: none;
+}
+
+#confirm-cancel input[type="button"] {
+    margin: 0px 10px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+#nick-post {
+    margin-bottom: 7px;
+}
